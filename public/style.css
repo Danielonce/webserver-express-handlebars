@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 1rem;
+    background-color: #FFF;
+    height: 10rem;
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: #E9ECEF;
+    height: 5rem;
+    width: 100vw;
+    top: 2.5rem;
+    position: relative;
+}
+
+.navbar__img{
+    width: 7.5rem;
+    height: 7.5rem;
+    position: absolute;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.navbar__title{
+    display: inline-block;
+    position: absolute;
+    margin-left: 9rem;
+    font-size: 1.7rem;
+}
+
+footer{
+    padding: 40px;
+    width: 100vw;
+    background-color: #5A6268;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+}
