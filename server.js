@@ -15,10 +15,6 @@ app.set('view engine', 'hbs');
 app.get('/', function (req, res) {
     res.render('home')
 })
-
-app.get('/deliciosa', function (req, res) {
-    res.render('deliciosa')
-})
  
 app.listen(port, () => {
     console.log(`Escuchando peticiones en el puerto ${port}`);
